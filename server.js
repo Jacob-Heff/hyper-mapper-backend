@@ -1,9 +1,6 @@
-require('dotenv').config(); // Load environment variables from .env file
+console.log("script.js loaded and running!");
 
-console.log('--- Debugging .env ---');
-console.log('MONGODB_URI:', process.env.MONGODB_URI);
-console.log('PORT:', process.env.PORT);
-console.log('--- End Debugging ---');
+require('dotenv').config(); // Load environment variables from .env file
 
 const express = require('express');
 const mongoose = require('mongoose');
