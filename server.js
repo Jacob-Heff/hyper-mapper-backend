@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 3000; // Use port from .env or default to 3000
 // app.use(cors({ origin: '*' })); // Allows all origins, less secure for production.
 // For production (after you know your GitHub Pages URL):
 app.use(cors({
-    origin: 'https://YOUR_GITHUB_USERNAME.github.io' // <<< IMPORTANT: Replace with your actual GitHub Pages URL
+    origin: 'https://jacob-heff.github.io/Hyper-Local-Resource-Mapper/' // <<< IMPORTANT: Replace with your actual GitHub Pages URL
 }));
 app.use(express.json()); // Enable parsing of JSON request bodies
 
